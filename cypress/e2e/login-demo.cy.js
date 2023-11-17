@@ -8,7 +8,7 @@ describe("login", () => {
         cy.get("#currentAddress").should("be.enabled").type("Ha Noi city");
         cy.get("#permanentAddress").should("be.enabled").type("Nam Dinh city");
         cy.get("#submit").click();
-        
+        ////
         // cy.get("#userName")
         //   .invoke("val")
         //   .then(val => {
