@@ -48,7 +48,8 @@ describe("Login", () => {
         cy.url().should("eq", "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
         cy.xpath("//input[@placeholder='Username']").should("have.value", "");
         cy.xpath("//input[@placeholder='Password']").should("have.value", "123456");
-        cy.get(".oxd-text.oxd-text--span.oxd-input-field-error-message.oxd-input-group__message").should("be.visible").and("have.text", "Required");
+        cy.get(".oxd-text.oxd-text--span.oxd-input-field-error-message.oxd-input-group__message").should("be.visible")
+          .and("have.text", "Required");
     })
 
     it("TC6 - Login Fail -Username and pass are blank", () => {
@@ -57,7 +58,9 @@ describe("Login", () => {
         cy.url().should("eq", "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
         cy.xpath("//input[@placeholder='Username']").should("have.value", "");
         cy.xpath("//input[@placeholder='Password']").should("have.value", "");
-        cy.xpath("(//span[@class='oxd-text oxd-text--span oxd-input-field-error-message oxd-input-group__message'][normalize-space()='Required'])[1]").should("be.visible").and("have.text", "Required");
+        cy.xpath("(//span[@class='oxd-text oxd-text--span oxd-input-field-error-message oxd-input-group__message'][normalize-space()='Required'])[1]")
+          .should("be.visible")
+          .and("have.text", "Required");
         cy.xpath("(//span[@class='oxd-text oxd-text--span oxd-input-field-error-message oxd-input-group__message'][normalize-space()='Required'])[2]").should("be.visible").and("have.text", "Required");
     })
 
