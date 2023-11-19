@@ -20,18 +20,15 @@ describe("Test input check", () => {
     //     cy.xpath("//input[@value='male']").should("not.be.checked")
     // })
 
-    // it('TC3 - button', () => {
-    //     cy.visit("https://demoqa.com/buttons");
-    //     cy.xpath("//button[@id='doubleClickBtn']").dblclick();
-    //     cy.xpath("//p[@id='doubleClickMessage']").should("have.text", "You have done a double click");        
-    //     cy.contains("button", "Right Click Me").rightclick();    
-    //     cy.xpath("//p[@id='rightClickMessage']").should("have.text", "You have done a right click");
-    //     cy.xpath("(//button[normalize-space()='Click Me'])[1]").click(); 
-    //     cy.xpath("//p[@id='dynamicClickMessage']").should("have.text","You have done a dynamic click");
-    // })
+    it('TC3 - button', () => {
+        cy.visit("https://demoqa.com/buttons");
+        // cy.xpath("//button[@id='doubleClickBtn']").dblclick();
+        // cy.xpath("//p[@id='doubleClickMessage']").should("have.text", "You have done a double click");        
+        // cy.contains("button", "Right Click Me").rightclick();    
+        // cy.xpath("//p[@id='rightClickMessage']").should("have.text", "You have done a right click");
+        cy.xpath("(//button[normalize-space()='Click Me'])[1]").trigger('rightclick'); 
+       //cy.xpath("//p[@id='dynamicClickMessage']").should("have.text","You have done a dynamic click");
+    })
 
-    // it('TC4 - LINK', () => {
-    //     cy.visit("https://demoqa.com/links");
-    //     cy.xpath("//a[@id='created']").invoke("attr", "href").then("linkNew") 
-
+   
 })
