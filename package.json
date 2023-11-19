@@ -1,6 +1,7 @@
 {
   "dependencies": {
-    "cypress": "^13.5.1"
+    "cypress": "^13.5.1",
+    "date-fns": "^2.30.0"
   },
   "name": "cypress-buoi-1",
   "version": "1.0.0",
