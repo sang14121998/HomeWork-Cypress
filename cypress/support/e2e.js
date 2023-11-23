@@ -17,6 +17,6 @@ require('cypress-xpath')
 // Import commands.js using ES2015 syntax:
 import './commands'
 import './demoQa_Commands'
-
+import "./orange_add_edit_emp"
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
