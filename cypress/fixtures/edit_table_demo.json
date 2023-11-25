@@ -1,0 +1,11 @@
+{
+    "editInfo": {
+        "firstName": "Sang",
+        "lastName" : "Tran",
+        "email" : "trantansang1412@gmail.com",
+        "age" : 25,
+        "salary" : 1000000,
+        "department" : "Engineer"
+
+    }
+}
