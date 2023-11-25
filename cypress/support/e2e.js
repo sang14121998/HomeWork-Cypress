@@ -18,5 +18,6 @@ require('cypress-xpath')
 import './commands'
 import './demoQa_Commands'
 import "./orange_add_edit_emp"
+import "./Commands_WebTableDemoQA"
 // Alternatively you can use CommonJS syntax:
 // require('./commands')

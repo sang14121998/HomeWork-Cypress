@@ -1,5 +1,3 @@
-
-
 Cypress.Commands.add("inputText", function(elm, text) {
     cy.xpath(elm)
       .should("be.enabled")
