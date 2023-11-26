@@ -8,14 +8,21 @@
         "firstNameAdd" : "Sang",
         "midNameAdd" : "Tan",
         "lastNameAdd" : "Tran",
-        "idEmpAdd" : 378111
+        "idEmpAdd" : "039785"
     },
 
     "data_edit_info_emp": {
         "firstNameEdit" : "Hung",
         "midNameEdit" : "Ba",
         "lastNameEdit" : "Pham",
-        "idEmpEdit" : 555
+        "idEmpEdit" : "177122"
+    },
+
+    "verifi_url": {
+        "dashboard_url" : "web/index.php/dashboard/index",
+        "add_emp_url": "web/index.php/dashboard/index",
+        "detail_info_emp_url" : "viewPersonalDetails/empNumber"
+
     }
 }
 

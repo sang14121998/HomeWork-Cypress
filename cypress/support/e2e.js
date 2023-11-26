@@ -19,5 +19,6 @@ import './commands'
 import './demoQa_Commands'
 import "./orange_add_edit_emp"
 import "./Commands_WebTableDemoQA"
+import "./Commands_ORANGE_ADD_SEARCH_INFO"
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
