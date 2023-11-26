@@ -41,11 +41,11 @@ describe("ORANGE ", () => {
         cy.verifiDataInputedCSS(uiDetailInfo.getLastName, DataOrange.data_edit_info_emp.lastNameEdit);
         cy.verifiDataInputedXpath(uiDetailInfo.getIdEmp, DataOrange.data_edit_info_emp.idEmpEdit);
 
-        // SEARCH AN EMPLOYEE BY ID_EMP
+        // SEARCH AN EMPLOYEE BY ID_EMP, HAS DATA RESPONE
         uiListEmp.getUrl;
         uiListEmp.getIdEmpInput;
         uiListEmp.getBtnSearchClick;
-        uiListEmp.FindEmp;
+        uiListEmp.FindEmpReturnData;
 
     
 

@@ -5,17 +5,18 @@
     },
 
     "data_add_emp": {
-        "firstNameAdd" : "Sang",
-        "midNameAdd" : "Tan",
+        "firstNameAdd" : "John",
+        "midNameAdd" : "Wick",
         "lastNameAdd" : "Tran",
-        "idEmpAdd" : "039785"
+        "idEmpAdd" : "88888"
     },
 
     "data_edit_info_emp": {
-        "firstNameEdit" : "Hung",
-        "midNameEdit" : "Ba",
-        "lastNameEdit" : "Pham",
-        "idEmpEdit" : "177122"
+        "firstNameEdit" : "Sang",
+        "midNameEdit" : "Tan",
+        "lastNameEdit" : "Tran",
+        "halftNameEdit" : "Sang Tan",
+        "idEmpEdit" : "77777"
     },
 
     "verifi_url": {
