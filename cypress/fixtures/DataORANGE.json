@@ -8,7 +8,7 @@
         "firstNameAdd" : "John",
         "midNameAdd" : "Wick",
         "lastNameAdd" : "Tran",
-        "idEmpAdd" : "88888"
+        "idEmpAdd" : "8888"
     },
 
     "data_edit_info_emp": {
@@ -16,7 +16,7 @@
         "midNameEdit" : "Tan",
         "lastNameEdit" : "Tran",
         "halftNameEdit" : "Sang Tan",
-        "idEmpEdit" : "77777"
+        "idEmpEdit" : "7777"
     },
 
     "verifi_url": {

@@ -47,7 +47,4 @@ export default class AddEmployee {
         )
     }
 
-    
-
-
 }

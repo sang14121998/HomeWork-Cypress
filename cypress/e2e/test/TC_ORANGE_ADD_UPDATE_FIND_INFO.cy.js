@@ -47,13 +47,5 @@ describe("ORANGE ", () => {
         uiListEmp.getBtnSearchClick;
         uiListEmp.FindEmpReturnData;
 
-    
-
-
-
-
-        
-
-
     })
 })
