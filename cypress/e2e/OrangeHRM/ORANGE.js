@@ -1,4 +1,4 @@
-// LOGIN SCREEN 1111
+// LOGIN SCREEN 01
 const URL_LOGIN = "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login";
 const USER_LOGIN = "//input[@placeholder='Username']";
 const PASS_LOGIN = "//input[@placeholder='Password']";
