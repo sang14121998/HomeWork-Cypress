@@ -19,4 +19,4 @@
       "cypress/e2e/test/step_definitions/*.{js,ts}"
     ]
   } 
-}
+} 
