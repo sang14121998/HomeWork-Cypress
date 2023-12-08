@@ -8,26 +8,18 @@ import DataOrange from "../../fixtures/DataORANGE.json"
 
 export default class Login {
     get getUrlVisit() {
-        return (
-            cy.visit(URL)
-        )
+       return URL;
     }
 
     get getUsername() {
-        return (
-            cy.get(USER_NAME).should("be.enabled").clear().type(DataOrange.data_login.username)
-        )
+       return USER_NAME;
     }
 
     get getPassWord() {
-        return (
-            cy.get(PASS_WORD).should("be.enabled").clear().type(DataOrange.data_login.password)
-        )
+       return PASS_WORD;
     }
 
     get getBtnLoginClick() {
-        return (
-            cy.get(BTN_LOGIN).should("be.enabled").click()
-        )
+       return BTN_LOGIN;
     }
 }
