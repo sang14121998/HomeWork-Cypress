@@ -47,4 +47,16 @@ Then("Vẫn ở trang login", function() {
 
 // dùng exmaple 
 
+Given("Tôi truy cập website và login thành công với username {string}, password {string}", function(username, password) {
+    cy.visit(loginOrange.getUrlVisit);
+    if (username) {
+        cy.get(loginOrange.getUsername).type(username);
+    }
+    if(password) {
+        cy.get(loginOrange.getPassWord).type(password);
+    }
+    
+    cy.get(loginOrange.getBtnLoginClick).click();
+    cy.url("https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index");
 
+})
