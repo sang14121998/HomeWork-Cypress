@@ -6,9 +6,9 @@ const BTN_SAVE_1 = "(//button[@type='submit'][normalize-space()='Save'])[1]";
 
 import DataOrange from "../../../fixtures/DataORANGE.json"
 
-export default class DetailInfo {
+export default class PersonalDetail
+ {
     
-
     get getFirstName() {
         return FIRST_NAME
     }
