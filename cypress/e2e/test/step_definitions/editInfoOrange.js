@@ -1,5 +1,5 @@
 import {Given, When, Then } from "@badeball/cypress-cucumber-preprocessor";
-import DetailInfo from "../../page/UI_DetailEmp_OrangeHRM";
+import DetailInfo from "../../page/orangeHRM/UI_DetailEmp_OrangeHRM";
 
 import {faker} from '@faker-js/faker';
 

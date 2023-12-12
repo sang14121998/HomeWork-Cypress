@@ -3,7 +3,7 @@ const USER_NAME = "input[placeholder='Username']";
 const PASS_WORD = "input[placeholder='Password']";
 const BTN_LOGIN = "button[type='submit']";
 
-import DataOrange from "../../fixtures/DataORANGE.json"
+import DataOrange from "../../../fixtures/DataORANGE.json"
 
 
 export default class Login {

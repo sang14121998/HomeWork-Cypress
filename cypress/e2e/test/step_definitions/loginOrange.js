@@ -1,5 +1,5 @@
 
-import loginPage from "../../page/UI_LogIn_OrangeHRM" 
+import loginPage from "../../page/orangeHRM/UI_LogIn_OrangeHRM" 
 const loginOrange = new loginPage();
 
 

@@ -7,7 +7,7 @@ const CELL_TABLE = "div[class = 'oxd-table-cell oxd-padding-cell']";
 const CHECKBOX_ROW = "div[class ='oxd-checkbox-wrapper'";
 
 
-import DataOrange from "../../fixtures/DataORANGE.json"
+import DataOrange from "../../../fixtures/DataORANGE.json"
 
 
 export default class SearchEmp {

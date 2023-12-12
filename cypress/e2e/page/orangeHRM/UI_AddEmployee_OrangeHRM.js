@@ -5,7 +5,7 @@ const LAST_NAME = "input[placeholder='Last Name']";
 const ID_EMPLOYEE = "//div[@class='oxd-input-group oxd-input-field-bottom-space']//div//input[@class='oxd-input oxd-input--active']";
 const BTN_SAVE = "button[type='submit']";
 
-import DataOrange from "../../fixtures/DataORANGE.json"
+import DataOrange from "../../../fixtures/DataORANGE.json"
 export default class AddEmployee {
     get getUrlVisit() {
         return (
