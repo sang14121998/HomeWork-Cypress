@@ -5,7 +5,7 @@ const STREET1 = "//div[label[text()='Street 1']]/following-sibling::div/input";
 const STREET2 = "//div[label[text()='Street 2']]/following-sibling::div/input"
 const CITY = "//div[label[text()='City']]/following-sibling::div/input";
 const ZIP_CODE = "//div[label[text()='Zip/Postal Code']]/following-sibling::div/input";
-const PHONE_HOME = "//div[label[text()='City']]/following-sibling::div/input";
+const PHONE_HOME = "//div[label[text()='Home']]/following-sibling::div/input";
 const PHONE_MOBILE = "//div[label[text()='Mobile']]/following-sibling::div/input";
 const PHONE_WORK = "//div[label[text()='Work']]/following-sibling::div/input";
 const EMAIL_WORK = "//div[label[text()='Work Email']]/following-sibling::div/input";

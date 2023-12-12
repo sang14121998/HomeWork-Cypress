@@ -5,7 +5,7 @@ Given Tôi truy cập website và login thành công với username "Admin", pas
 When Chuyển đến trang "My Info Personal"
 Then Hiển thị trang "My Info Personal"
 When Nhập data edit theo data faker vào form Personal
-When Click "Save" button
+When Click "Save" button đầu tiên ở trang Personal
 Then Edit info emp thành công
 When Chuyển đến trang "Contact details"
 Then Hiển thị trang "Contact details"

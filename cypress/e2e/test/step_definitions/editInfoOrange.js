@@ -3,6 +3,7 @@ import MyInfoPersonal from "../../page/orangeHRM/uiMyInfoPersonal";
 import MyInfoContact from "../../page/orangeHRM/uiMyInfoContact";
 
 import {faker} from '@faker-js/faker';
+import { should } from "chai";
 
 const myInfoPersonal = new MyInfoPersonal();
 const myInfoContact = new MyInfoContact();
@@ -42,7 +43,7 @@ Then('Hiển thị trang "Contact details"', function() {
 
 let street1 = faker.address.streetAddress();
 let street2 = faker.address.streetAddress();
-let city = faker.location.cityName();
+const city = faker.location.city();
 let zipCode = faker.address.zipCode();
 let phoneHome = faker.phone.number();
 let phoneMobile = faker.phone.number();
@@ -68,9 +69,10 @@ When('Click "Save" button ở trang Contact', function(){
 
 Then('Verify info "Contact details" mới update', function() {
     cy.url().should('contain', 'contactDetails/empNumber');
-    cy.xpath(myInfoContact.getStreet1).should('have.value', street1);
+    cy.xpath(myInfoContact.getStreet1).should('have.value', street1);  
     cy.xpath(myInfoContact.getStreet2).should('have.value', street2);
-    cy.xpath(myInfoContact.getCity).should('have.value', city);
+    cy.xpath(myInfoContact.getCity).should('have.value', city);  
+     
     cy.xpath(myInfoContact.getZipCode).should('have.value', zipCode);
     cy.xpath(myInfoContact.getPhoneHome).should('have.value', phoneHome);
     cy.xpath(myInfoContact.getPhoneMobile).should('have.value', phoneMobile);
