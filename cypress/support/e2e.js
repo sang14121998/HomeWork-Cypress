@@ -22,3 +22,7 @@ import "./Commands_WebTableDemoQA"
 import "./Commands_ORANGE_ADD_SEARCH_INFO"
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
+
+// sql 
+// const mysql = require('cypress-mysql');
+// mysql.addCommands();

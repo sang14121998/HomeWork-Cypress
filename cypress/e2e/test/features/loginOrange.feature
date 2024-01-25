@@ -1,11 +1,13 @@
 Feature: Login
 
+  
   Scenario: Login is successfuly
     Given Tôi đã chuyển đến trang login
     When Nhập "Admin" và "admin123" vào textbox username và password
     When Click vào'Login' button
     Then Hiển thị trang Dashboard
 
+  @SmokeTest
   Scenario: Login is fail
     Given Tôi đã chuyển đến trang login
     When Tôi đã nhập thông tin Scenario
